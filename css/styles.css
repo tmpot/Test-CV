@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+}
+
+hr {
+  border-color: #EEEEEE;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 6%;
+}
+
+h1 {
+  background-color: #CADEFC;
+  border-radius: 25px;
+  color: black;
+  text-shadow: 2px 2px;
+}
+
+h2 {
+  background-color: #CADEFC;
+  border: 3px;
+  border-radius: 25px;
+  color: black;
+}
