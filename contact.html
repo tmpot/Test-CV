@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    img {
+      width: 250px;
+      border-radius: 50px;
+      float: inherit;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+
+    form {
+      background-color: ghostwhite;
+      border-radius: 10px;
+      border: 3px;
+    }
+
+    h1 {
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+
+    textarea {
+      border-radius: 10px;
+      border-style: dashed;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="contact">
+    <p><a href="index.html">CV</a> → <a href="hobbies.html">Hobbies</a> → <a href="projects.html">Projects</a> → Contact</p>
+  </nav>
+  <center>
+    <h1 class="contacts">Contact Info</h1>
+    <br>
+    <p><strong>Adress</strong><br>
+      xxxxxx</p>
+    <p><strong>Phone</strong><br>
+      xxxxxx</p>
+    <p><strong>Email</strong><br>
+      xxxxxx</p>
+    <p><strong>Socials</strong><br>
+      <a href="https://nl.linkedin.com/in/menglipot" title="Meng-Li Pot LinkedIn Page" target="_blank">LinkedIn</a><br><br>
+    </p>
+    <img src="https://www.wpbeginner.com/wp-content/uploads/2021/12/best-email-marketing-services-compared.jpg" alt="Socials Image" align="right" load="lazy" border="3px">
+  </center>
+  <br><br><br><br>
+  <h2 align="center">Message Me</h2>
+  <form action="mailto:xxx@gmail.com" method="post" align="center" enctype="text/plain"><br>
+    <label for="">Your Name:</label>
+    <input type="text" name="yourName" size="35" required autofocus placeholder="your name here"><br>
+    <label for="">Your Email:</label>
+    <input type="email" name="yourEmail" size="35" required placeholder="e.g. youremail@gmail.com"><br>
+    <label for="">Your Phone number:</label>
+    <input type="phonenumber" name="yourPhonenumber" size="35" required placeholder="+ countrycode 00000000"><br>
+    <label for="">Adress:</label>
+    <input type="adress" name="yourAdress" size="35" placeholder="street + housenumber, postcode, city, country"><br><br>
+    <label for="">Call Me Back Option</label>
+    <input type="date" name="prefdate">
+    <input type="time" name="preftime" <br><br>
+    <label for="">Leave a Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="50"></textarea><br>
+    <input type="file" multiple><br><br>
+    <label for="">Do You Want to Receive Notifications?</label>
+    <input type="checkbox" name="checkbox">
+    <br><br>
+    <input type="submit" value="Send">
+
+  </form>
+
+</body>
+
+</html>
